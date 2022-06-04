@@ -17,16 +17,25 @@
 
 /////////////// ES6 Modules Import Export in React Js #20 ///////////////
 
-const youtuber = "gareeb clasher";
-const favprog = "React js";
+// const youtuber = "gareeb clasher";
+// const favprog = "React js";
 
-function myName() {
-  let name = "shivam";
-  return name;
-}
-function myNames() {
-  let names = "shivam singh";
-  return names;
-}
-export default youtuber;
-export { favprog, myName, myNames };
+// function myName() {
+//   let name = "shivam";
+//   return name;
+// }
+// function myNames() {
+//   let names = "shivam singh";
+//   return names;
+// }
+// export default youtuber;
+// export { favprog, myName, myNames };
+
+//////////////////// ReactJS Bonus: How to Type Emoji 👍 in VS Code | VS Code Emoji Extension ////////////////
+import React from "react";
+
+const App = () => {
+  let x = "thapa 😄 ❤️ 👍";
+  return <h1> My name is {x}</h1>;
+};
+export default App;

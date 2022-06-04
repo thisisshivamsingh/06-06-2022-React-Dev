@@ -162,3 +162,61 @@ const heading = {
 
 // var friends = friends[0];
 // friends[0] = "arjun";
+
+/////////////// ReactJs Javascript Array Map Method ///////////////
+
+// const oldArr = ["shivam", "kumar", "singh"];
+// console.log(oldArr[0]);
+// console.log(oldArr[1]);
+// console.log(oldArr[2]);
+
+// const newArr = oldArr.map(function (cvalue, i, arr) {
+//   // return i + " : " + cvalue + "singh";
+//   console.log(arr);
+// });
+// console.log(newArr);
+// // console.log(oldArr);
+
+// const studentData = [
+//   { id: 1, name: "shivam", degree: "B.TECH" },
+//   { id: 2, name: "kumar", degree: "RS-CIT" },
+//   { id: 3, name: "singh", degree: "Developer" },
+//   { id: 1, name: "shivam", degree: "B.TECH" },
+//   { id: 2, name: "kumar", degree: "RS-CIT" },
+//   { id: 3, name: "singh", degree: "Developer" },
+//   { id: 1, name: "shivam", degree: "B.TECH" },
+//   { id: 2, name: "kumar", degree: "RS-CIT" },
+//   { id: 3, name: "singh", degree: "Developer" },
+//   { id: 1, name: "shivam", degree: "B.TECH" },
+//   { id: 2, name: "kumar", degree: "RS-CIT" },
+//   { id: 3, name: "singh", degree: "Developer" },
+//   { id: 1, name: "shivam", degree: "B.TECH" },
+//   { id: 2, name: "kumar", degree: "RS-CIT" },
+//   { id: 3, name: "singh", degree: "Developer" },
+//   { id: 1, name: "shivam", degree: "B.TECH" },
+//   { id: 2, name: "kumar", degree: "RS-CIT" },
+//   { id: 3, name: "singh", degree: "Developer" },
+//   { id: 1, name: "shivam", degree: "B.TECH" },
+//   { id: 2, name: "kumar", degree: "RS-CIT" },
+//   { id: 3, name: "singh", degree: "Developer" },
+//   { id: 1, name: "shivam", degree: "B.TECH" },
+//   { id: 2, name: "kumar", degree: "RS-CIT" },
+//   { id: 3, name: "singh", degree: "Developer" },
+//   { id: 1, name: "shivam", degree: "B.TECH" },
+//   { id: 2, name: "kumar", degree: "RS-CIT" },
+//   { id: 3, name: "singh", degree: "Developer" },
+// ];
+// // console.log(studentData[0].name);
+// // console.log(studentData[2].name);
+
+// const newData = studentData.map((cvalue) => {
+//   return `My name is ${cvalue.name}. My highest degree is ${cvalue.degree}`;
+// });
+// console.log(newData);
+
+//////////////////// ReactJS Bonus: How to Type Emoji 👍 in VS Code | VS Code Emoji Extension ////////////////
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+
+ReactDOM.render(<App />, document.getElementById("root"));
