@@ -215,8 +215,24 @@ const heading = {
 // console.log(newData);
 
 //////////////////// ReactJS Bonus: How to Type Emoji 👍 in VS Code | VS Code Emoji Extension ////////////////
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import App from "./App";
+
+// ReactDOM.render(<App />, document.getElementById("root"));
+
+/////////////////// #13 Handling Events in ReactJs ////////////////
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import "./index.css";
+// import App from "./App";
+
+// ReactDOM.render(<App />, document.getElementById("root"));
+
+/////////////////// Forms in ReactJS | React Controlled Vs Uncontrolled Component #34 ///////////////
 import React from "react";
 import ReactDOM from "react-dom";
+import "./index.css";
 import App from "./App";
 
 ReactDOM.render(<App />, document.getElementById("root"));
