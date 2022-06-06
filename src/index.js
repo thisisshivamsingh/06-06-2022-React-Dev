@@ -230,9 +230,52 @@ const heading = {
 // ReactDOM.render(<App />, document.getElementById("root"));
 
 /////////////////// Forms in ReactJS | React Controlled Vs Uncontrolled Component #34 ///////////////
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import "./index.css";
+// import App from "./App";
+
+// ReactDOM.render(<App />, document.getElementById("root"));
+
+//////////////// React Bonus #38: What does "..." three dots do in ReactJS | Spread Operator in ReactJS ////////////////
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
+// import Events from "./Events";
 
 ReactDOM.render(<App />, document.getElementById("root"));
+// const fullname = ["vinod", "thapa"];
+// const biodata = [1, 26, "male", ...fullname];
+// var shooterGames = [
+//   "Call of Duty",
+//   "Far Cry",
+//   "Resident Evil",
+//   "Call of Duty",
+//   "Far Cry",
+//   "Resident Evil",
+// ];
+// var racingGames = ["Need For Speed", "Gran Turismo", "Burnout"];
+// var games = [...shooterGames, ...racingGames];
+
+// 3rd cases
+
+// var shooterGames = ["Call of Duty", "Far Cry", "Resident Evil"];
+// var [first, ...remaining] = shooterGames;
+// console.log(first); //Call of Duty
+// console.log(remaining);
+const fullName = {
+  fname: "vinod",
+  lname: "thapa",
+};
+const biodata = {
+  id: 1,
+  ...fullName,
+  age: 26,
+  gender: "male",
+};
+console.log(biodata);
+// console.log(games);
+
+// console.log(fullname);
+// console.log(biodata);

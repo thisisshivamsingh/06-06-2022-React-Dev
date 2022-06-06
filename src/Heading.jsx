@@ -1,7 +1,7 @@
-import React from "react";
+// import React from "react";
 
-function Heading() {
-  return <h1>My name is Shivam</h1>;
-}
+// function Heading() {
+//   return <h1>My name is Shivam</h1>;
+// }
 
-export default Heading;
+// export default Heading;
